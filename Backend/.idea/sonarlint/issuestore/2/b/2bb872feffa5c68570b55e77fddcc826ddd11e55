@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–şÏÖüÿÿÿÿ
+r	java:S116)"XRename this field "id_Entreprise" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ùÏşÿÿÿÿ
+s	java:S116*"YRename this field "nom_Entreprise" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œçµ»ûÿÿÿÿ
+>
+java:S1068$"(Remove this unused "role" private field.(±õÉÖ
+L
+java:S1068)"1Remove this unused "id_Entreprise" private field.(¿ùÏşÿÿÿÿ
+M
+java:S1068*"2Remove this unused "nom_Entreprise" private field.(Œçµ»ûÿÿÿÿ

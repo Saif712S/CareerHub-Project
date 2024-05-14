@@ -1,0 +1,19 @@
+
+\	java:S112Ç"FDefine and throw a dedicated exception instead of using a generic one.(¬ÕÙß
+_
+java:S11920"IDefine a constant instead of duplicating this literal "Candidat" 5 times.(ÑèÒİ
+x
+java:S1488È"\Immediately return this expression instead of assigning it to the temporary variable "user".(Ïü¯şÿÿÿÿ
+x
+java:S1488Î"\Immediately return this expression instead of assigning it to the temporary variable "user".(Ïü¯şÿÿÿÿ
+x
+java:S1488„"\Immediately return this expression instead of assigning it to the temporary variable "user".(Ïü¯şÿÿÿÿ
+x
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "user".( Îêÿÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èŞ”;
+c	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¸ÌÈ
+h	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÂÎ—ùÿÿÿÿ
+O
+java:S1854»"8Remove this useless assignment to local variable "user".(µéî
+@
+java:S1068%"*Remove this unused "logger" private field.(öô¿¼

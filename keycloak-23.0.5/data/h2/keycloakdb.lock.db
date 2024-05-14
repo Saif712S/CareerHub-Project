@@ -1,0 +1,6 @@
+#FileLock
+#Wed May 08 00:59:49 CEST 2024
+server=192.168.1.113\:54811
+hostName=192.168.1.113
+method=file
+id=18f5548db71720108e11e3055ce43b255a01fcca530

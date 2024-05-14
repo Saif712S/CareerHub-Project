@@ -1,0 +1,43 @@
+<h2 mat-dialog-title>Add Company</h2>
+<div mat-dialog-content class="dialog-content">
+  <form #addForm="ngForm" (ngSubmit)="addEntreprise(data)" novalidate>
+
+ 
+    <mat-form-field appearance="fill" style="flex: 2; margin-right: 10px;">
+        <mat-label>Name</mat-label>
+        <input matInput [(ngModel)]="data.nom" name="nom" placeholder="Insert nom" required>
+        <mat-error *ngIf="addForm.controls['nom']?.invalid && (addForm.controls['nom'].dirty || addForm.controls['nom'].touched)">Required name</mat-error>
+      </mat-form-field>
+   
+
+    <mat-form-field appearance="fill" style="flex: 2; margin-right: 10px;">
+      <mat-label>Description</mat-label>
+      <input matInput [(ngModel)]="data.description" name="description" placeholder="Insert Description" required>
+      <mat-error *ngIf="addForm.controls['description']?.invalid && (addForm.controls['description'].dirty || addForm.controls['description'].touched)">Required Description</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" style="flex: 1; margin-right: 10px;">
+      <mat-label>Logo</mat-label>
+      <input matInput [(ngModel)]="data.logo" name="logo" placeholder="Insert Logo" type="logo" required>
+      <mat-error *ngIf="addForm.controls['logo']?.invalid && (addForm.controls['logo'].dirty || addForm.controls['logo'].touched)">Required Logo.</mat-error>
+    </mat-form-field>
+
+   
+
+    <mat-form-field appearance="fill" style="flex: 1; margin-right: 10px;">
+      <mat-label>Section</mat-label>
+      <input matInput [(ngModel)]="data.secteur" name="secteur" placeholder="Insert Section" required>
+      <mat-error *ngIf="addForm.controls['secteur']?.invalid && (addForm.controls['secteur'].dirty || addForm.controls['secteur'].touched)">Section is Required.</mat-error>
+    </mat-form-field>
+
+   
+
+
+    
+
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancelClick()">Annuler</button>
+  <button mat-button color="primary" (click)="addEntreprise(data)" [disabled]="addForm.invalid">Ajouter</button>
+</div>

@@ -1,0 +1,13 @@
+
+r
+java:S14885"\Immediately return this expression instead of assigning it to the temporary variable "user".(½ñŠ•
+w
+java:S1488="\Immediately return this expression instead of assigning it to the temporary variable "user".(ŞÔÔØüÿÿÿÿ
+r
+java:S1488C"\Immediately return this expression instead of assigning it to the temporary variable "user".(ºıú½
+r
+java:S1488M"\Immediately return this expression instead of assigning it to the temporary variable "user".(¹‹Òû
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤ù¯Ôÿÿÿÿÿ
+c	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í™ã×
+c	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬­çø
+@	java:S106\"+Replace this use of System.out by a logger.(êÕã
